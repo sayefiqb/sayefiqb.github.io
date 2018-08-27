@@ -23,10 +23,10 @@ $(function() {
         url: "././mail/contact_me.php",
         type: "POST",
         data: {
-          name: name,
-          phone: phone,
-          email: email,
-          message: message
+          name: Sayef Iqbal,
+          phone: 123456789,
+          email: sayef.iqbal16@stjohns.edu,
+          message: Please contact me via email. I am prompt in replying to emails.
         },
         cache: false,
         success: function() {
