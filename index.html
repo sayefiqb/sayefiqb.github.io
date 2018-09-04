@@ -52,16 +52,17 @@
       </div>
     </nav>
 
-    <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
-      <div class="container">
-        <img {class="img-fluid mb-5 d-block mx-auto" src="img/profile.jpg" alt="">
-        <h1 class="text-uppercase mb-0">Sayef Iqbal</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Network Analyst - Programmer - Native App Developer</h2>
-      </div>
-    </header>
+    <!-- ------------ Header ------------- -->
+    <div class="header-container">
+      <div class="video-container">
+        <video width= "100%" height="780px"  autoplay = "autoplay"  loop = "loop" volume = "0" controls = "controls">
+          <source src = "video/background.mp4" type = "video/mp4" >
+            <source src = "video/background.webm" type = "video/webm" >
+              <source src = "video/background.ogv" type = "video/ogg" >
 
+        </video> <!-- ---------end of video-container ----------- -->
+    </div>
+  </div>
     <!-- Portfolio Grid Section -->
     <section class="portfolio" id="portfolio">
       <div class="container">
@@ -75,7 +76,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/dark-code.png" alt="">
+              <img class="img-fluid" src="img/portfolio/programming.jpg" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -85,7 +86,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/cluster.png" alt="">
+              <img class="img-fluid" src="img/portfolio/mobile_app.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -95,7 +96,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+              <img class="img-fluid" src="img/portfolio/network.jpg" alt="" height="580px">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -105,7 +106,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/game.png" alt="">
+              <img class="img-fluid" src="img/portfolio/sentiment_analysis.jpg" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -115,7 +116,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/safe.png" alt="">
+              <img class="img-fluid" src="img/portfolio/ir-system.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -125,7 +126,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
+              <img class="img-fluid" src="img/portfolio/tweet_analysis.png" alt="">
             </a>
           </div>
         </div>
@@ -135,20 +136,22 @@
     <!-- About Section -->
     <section class="bg-primary text-white mb-0" id="about">
       <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
+        <h2 class="text-center text-uppercase text-white">About Me</h2>
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            <p class="lead" align="justify">My name is Sayef Iqbal, a student programmer and IT network assistant at St. John's University. When I am not playing Cricket or doing BBQ, I like to learn new programming languages and cloud services, especially AWS. Most of the time, I am on my Ubuntu 18.04 machine either building native app pages in React-Native or learning about serverless cloud computation in AWS Lambda. The rest of the time, I am configuring network ACLs, creating SVIs or changing AAA commands in cisco switches and routers for St. John's University's IT-Network Department. </p>
+          </div>
+          <div>
+            <img src="img/profile.jpg" alt="avatar" border-radius="50%" height = "440px" width ="320px" padding-top = "100px">
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            <p class="lead" align="justify">Computer science is a fast evolving profession where there is room and opportunity for anyone to develop new skills every single day. While I strive towrds building new skills in AWS, Networking, React-Native and other topics, I have work experience in designing and coding cli software for restaurant management systems, programming Sentiment analysis project in Java to analyze emotions from tweets, Vector Space modelling for textual similarity with query also using Java, Login Forms and CS Book app using React-Native and much more.  </p>
           </div>
         </div>
         <div class="text-center mt-4">
           <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fa fa-download mr-2"></i>
-            Download Now!
+            Thumbs Up!
           </a>
         </div>
       </div>
@@ -243,9 +246,10 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <h4 class="text-uppercase mb-4">About this Page</h4>
-            <p class="lead mb-0">This page was created from the freelancer Bootstrap theme. In order to learn more about my skills
-              <a href="http://github.com/sayefiqb.com">Visit my Git Hub Page</a>.</p>
+            <h4 class="text-uppercase mb-4">More about me</h4>
+            <p class="lead mb-0">To learn more about my projects and research you can either email me at sayef.iqbal16@stjohns.edu or
+            </p>
+            <p>  <a href="http://github.com/sayefiqb">Visit my Git Hub Page</a>.</p>
           </div>
         </div>
       </div>
@@ -275,10 +279,13 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/dark-code.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <h2 class="text-secondary text-uppercase mb-0">Restaurant Management System</h2>
+              <video width= "100%" height="420px"  autoplay = "autoplay"  loop = "loop" volume = "100" controls = "controls">
+                <source src = "video/restaurant-system.mp4" type = "video/mp4" >
+                  <source src = "video/restaurant-system.webm" type = "video/webm" >
+                    <source src = "video/restaurant.ogv" type = "video/ogg" >
+              </video> <!-- ---------end of video-container ----------- -->
+              <p class="mb-5" align="justify">A command line interface for both customers and restaurant owners to be able to reserve seats and review restaurants. This simple peice of software utilizes the observer-observable pattern and is serializable hence both restaurants and customers are able to get notified for any new reviews that drops in.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -297,10 +304,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Booklist Mobile Application</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <p class="mb-5" align="justify">Booklist is a mobile application built using react-native. It is inspired from stephengriders prokect of album list. But this mobile application lists the top 5 book of the week by calling my own api server hosted in my personal machine</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -319,10 +326,13 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <h2 class="text-secondary text-uppercase mb-0">Basic LAN Network</h2>
+                <video width= "100%" height="420px"  autoplay = "autoplay"  loop = "loop" volume = "100" controls = "controls">
+                  <source src = "video/packet-tracer.mp4" type = "video/mp4" >
+                    <source src = "video/packet-tracer.webm" type = "video/webm" >
+                      <source src = "video/packet-tracer.ogv" type = "video/ogg" >
+                </video> <!-- ---------end of video-container ----------- -->
+              <p class="mb-5">This video could be used to a way around to understand some basic configuration for deplying a lan network in a campus wide. The configuration covers basic concept of networking like Vlan, SVI, Static routes, SSH, Telnet etc.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -341,10 +351,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Tweet Sentiment Analysis</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <p class="mb-5">This simple program is written in java simply focusing on analyzing different characteristics of a sentence to validate it as postive or negative sentimental statement. The findings are vvery interesting.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -363,10 +373,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Text similarity using VSR model</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                  <img class="img-fluid mb-5" src="img/portfolio/request-access.jpg" alt="">
+            <p class="mb-5" align="justify">This project was to retrieve and rank the 50-100 most relevant documents from a list of 40,000 documents. Documents in this case is represented as a single sentence comprising of natural language words. I used vector space modelling and cosine similarity to find relevance. The documents were preprocessed and stemmed using Porter Stemmer library. The github reposiotory link will take you to the source code for my project and this will take you to the ppt for the project</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -385,10 +395,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Research: Energy Consumption in Commercial Buildings</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="img/portfolio/request-access.jpg" alt="Responsive image">
+              <p class="mb-5" align="justify">This was a research done by me and Associate Professor. Fazel Keshtkat at St. John's University in order to understand how some building features (concrete walls, glass windows, floor size etc.) can contribute towards energy consumption. The main goal of this research was to classify good, bad and excellent energy consumption behavior shown by commercial buildings in the United states using raw data from U.S. Energy Information Adminstration. In order to acces the result sheet, analyzed data or our research paper please email me at sayef.iqbal16@stjohns.edu </p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
